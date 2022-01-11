@@ -1,0 +1,46 @@
+body{
+    background-color: lightgrey;
+}
+
+.contenedor{
+    display: flex;
+    height: 600px;
+    border: 3px solid purple;
+    /* =====POSICIONAMIENTO HORIZONTAL===== */
+    /* justify-content: center; */
+   /*  justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+
+    /* =====POSICIONAMIENTO VERTICAL====== */
+    align-items: flex-start;
+    
+    /* mueve las cajas hacia abajo mientras la pantalla se hace
+    mas pequeña */
+    flex-wrap:  wrap;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;  
+}
+
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+    /* align-self: flex-end; */
+}
+
+.verde {
+    background-color: green;
+    /* align-self: center; */
+}
+
+.amarillo {
+    background-color: yellow;
+}
+

@@ -1,0 +1,41 @@
+body{
+    background-color: gray;
+}
+
+.title{
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.subtitle{
+    padding-left: 10px;
+    color: white;
+    background-color: #444444;
+}
+
+.container{
+    display: flex;
+}
+
+.imagen1{
+    margin-left: 40px;
+    padding-right: 25px;
+    width: 100px;
+}
+
+
+.imagen{
+    width: 160px;
+    margin-right: 10px;
+}
+
+.box-white{
+    background-color: white;
+    font-weight: 800;
+}
+
+.red{
+    font-style: italic;
+    font-weight: 700;
+    color: #9e0e0e;
+}
